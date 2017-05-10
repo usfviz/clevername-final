@@ -12,7 +12,9 @@ shiny::runGitHub("clevername-final","usfviz",subdir="audience")
  ![IMAGE](images/demo_stacked.png)
  ![IMAGE](images/demo_grouped.png)
  This plot can be displayed stacked or grouped for different perspectives. It can also be subsetted by age to more accurately display proportions of specific groups.
- ![IMAGE](images/interests.png)
+ 
+  ## Web Sessions Interests
+ ![IMAGE](images/Interests.png)
  The second plot visualizes visitors interest. Google is very good at knowing what their users are interested in. Lucky for us they provide this data in their API. In this plot you can hover over all the interest categories to see what MSANs webpage visitor are interested in. As you can see in this image, a relatively high percentage are interested in Colleges and Universities.
  
 # MSAN's Admissions
