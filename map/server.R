@@ -28,7 +28,6 @@ server <- function(input, output, session) {
   gender <- c('All', as.character(unique(raw$sex)))
   
   
-  
   # Reactive expression for the data subsetted to what the user selected
   filteredData <- reactive({
     
