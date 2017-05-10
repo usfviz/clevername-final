@@ -23,5 +23,5 @@ shiny::runGitHub("clevername-final","usfviz",subdir="map")
 The next visualization easily shows the population of students applying to MSANs. 
  ![IMAGE](images/map.png)
 
-The markers on the map represent the location of the applicants undergraduate universities. The markers are color coded by GRE scores. The applicants can be subsetted by who made it through different stages of the admissions process and gender. If the markers are clicked on the specific student information is displayed.
+The markers on the map represent the location of the applicants undergraduate universities. The markers are color coded by GRE scores. The applicants can be subsetted by who made it through different stages of the admissions process, GRE scores and gender. If the markers are clicked on the specific student information is displayed.
  
