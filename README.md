@@ -1,5 +1,4 @@
-# clevername-final
-final created for clevername
+# MSANs Vizualization
 
 In this visualization project we used two separate datasets relating to USF Masters in Analytics program (MSANs). These visualizations are intended to be used internally by MSANs administration.
 
