@@ -42,6 +42,12 @@ server <- function(input, output, session) {
   
   noNA <- reactive({
     data_na <- subset(missing_gre, stage==input$funnel)
+    
+    if(input$sex != 'All'){
+      data_na <- subset(data_na, sex == input$sex)
+    }
+    return(data_na)
+    
   })
   
   # This reactive expression represents the palette function,
